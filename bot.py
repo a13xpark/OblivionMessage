@@ -1,7 +1,7 @@
 import discord
 import os
 
-TARGET_USER_ID = 1284237690111262853  # replace with the user ID
+TARGET_USER_ID = 525129432927698944  # replace with the user ID
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -19,7 +19,7 @@ async def on_message(message):
         return
 
     if message.author.id == TARGET_USER_ID:
-        await message.reply("you're a dork")
+        await message.reply("yoo beebs hush up")
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
