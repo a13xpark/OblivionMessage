@@ -1,7 +1,7 @@
 import discord
 import os
 
-TARGET_USER_ID = 875803669830971482  # replace with the user ID
+TARGET_USER_ID = 1357705481300345053  # replace with the user ID
 
 intents = discord.Intents.default()
 intents.message_content = True
